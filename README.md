@@ -1,0 +1,1 @@
+# magicpin-ai-challenge
