@@ -723,7 +723,7 @@ def build_fallback_action(category: Dict, merchant: Dict, trigger: Dict, custome
 # ==========================================
 # ENDPOINTS
 # ==========================================
-
+@app.get("/healthz")
 @app.get("/v1/healthz")
 async def healthz():
     counts = {"category": 0, "merchant": 0, "customer": 0, "trigger": 0}
