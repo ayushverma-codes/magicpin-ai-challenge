@@ -1,0 +1,7 @@
+groq
+uvicorn
+fastapi
+python-dotenv
+groq
+openai
+google-genai
